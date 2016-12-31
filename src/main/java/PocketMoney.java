@@ -27,11 +27,11 @@ public class PocketMoney extends PluginBase implements Listener {
         this.getLogger().info(TextFormat.GREEN + "Economy loaded!");
         
      /* @var Config */
-    private $users;
+    private users;
     /* @var Config */
-    private $system;
+    private system;
     
-    private $messages;
+    private messages;
     
     // <- API
     /**
@@ -42,9 +42,9 @@ public class PocketMoney extends PluginBase implements Listener {
      * @param string $account
      * @return bool
      */
-    public void isRegistered($account)
+    public void isRegistered(account)
     {
-        return $this->users->exists($account);
+        return this.users.exists(account);
     }
 
      public void onEnable() {
