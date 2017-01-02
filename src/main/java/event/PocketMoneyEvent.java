@@ -5,5 +5,10 @@ import PocketMoney.PocketMoney;
 
 public class PocketMoneyEvent extends PluginEvent {
     
+     //public function __construct(PocketMoney $plugin)
+    //{
+    //    parent::__construct($plugin);
+    //}
 }    
+    
 
