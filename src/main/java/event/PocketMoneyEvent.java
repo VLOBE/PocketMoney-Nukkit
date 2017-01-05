@@ -9,6 +9,9 @@ public class PocketMoneyEvent extends PluginEvent {
     //{
     //    parent::__construct($plugin);
     //}
+    public PocketMoneyEvent(PocketMoney plugin) {
+           super(plugin);
+    }
 }    
     
 
