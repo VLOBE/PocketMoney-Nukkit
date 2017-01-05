@@ -2,9 +2,12 @@ package PocketMoneyEvent;
 
 import cn.nukkit.Player;
 import PocketMoney.PocketMoney;
+import cn.nukkit.event.HandlerList;
 
 public class TransactionEvent extends PocketMoneyEvent{
 {
+  
+   public static HandlerList handlerList = null;
   
   const TRANSACTION_PAY = 0;
   
